@@ -4,126 +4,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valle Oasis - Festival</title>
+  <title>BOCHORNO – Fiesta en la Azotea 🌇🔥</title>
+  <meta name="description"
+    content="Bochorno – La fiesta tropical que esperabas al caer el sol. Música, jacuzzi, 360° de vista y calor del bueno.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Chivo:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Facebook Pixel -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1059248608730511');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1059248608730511&ev=PageView&noscript=1" />
+  </noscript>
+
   <style>
     body {
+      font-family: 'Chivo', sans-serif;
       margin: 0;
-      font-family: 'Arial', sans-serif;
-      background: linear-gradient(to bottom, #000000, #1a1a1a);
-      color: white;
-      padding: 20px;
-    }
-
-    .section {
-      margin-bottom: 30px;
-    }
-
-    h1,
-    h2,
-    h3 {
-      margin: 0 0 10px;
+      padding: 0;
+      background: linear-gradient(135deg, #ffe9a7, #ffadad);
+      color: #222;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 100vh;
     }
 
     h1 {
-      font-size: 2.5em;
-      color: #e2ff5a;
-      text-align: center;
+      font-family: 'Anton', sans-serif;
+      font-size: 3rem;
+      margin: 0.5em 0 0.2em;
     }
 
-    .subtitle {
-      text-align: center;
-      font-size: 1.1em;
-      color: #ccc;
+    p {
+      margin: 0.3em 0;
+      font-size: 1.1rem;
     }
 
-    .block {
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 15px;
-      padding: 15px;
-      margin-top: 20px;
+    .info {
+      max-width: 500px;
+      margin: auto;
     }
 
-    .zone {
-      margin-bottom: 20px;
+    .btn-whatsapp {
+      margin-top: 2em;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      padding: 1em 2em;
+      font-size: 1.2rem;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.3s ease;
     }
 
-    .zone h3 {
-      color: #8be9fd;
-    }
-
-    .cta {
-      text-align: center;
-      font-size: 1.2em;
-      margin-top: 30px;
-      background: #e2ff5a;
-      color: #000;
-      padding: 15px;
-      border-radius: 10px;
-      font-weight: bold;
-    }
-
-    .logos {
-      text-align: center;
-      margin-top: 40px;
-    }
-
-    .logos img {
-      height: 40px;
-      margin: 10px;
+    .btn-whatsapp:hover {
+      background-color: #1ebe5b;
     }
   </style>
 </head>
 
 <body>
-  <div class="section">
-    <h1>Valle Oasis</h1>
-    <div class="subtitle">Domingo 26 de mayo | Medellín</div>
-    <div class="subtitle">Un festival para conectar con la música, la tierra y tu tribu</div>
-  </div>
-
-  <div class="section block">
-    <h2>Programación Holística & Mercadillo</h2>
-    <div class="zone">
-      <h3>Main Stage (10AM - 3PM)</h3>
-      <p>Yoga · Meditación · Tarot</p>
-    </div>
-    <div class="zone">
-      <h3>Mercadillo (10AM - 8PM)</h3>
-      <p>Proyectos locales · Expositores independientes</p>
-    </div>
-  </div>
-
-  <div class="section block">
-    <h2>Música & Fiesta</h2>
-    <div class="zone">
-      <h3>Terraza</h3>
-      <p>3PM - 8PM: Parte B · 8PM - 2AM: Parte A (Reggaetón)</p>
-    </div>
-    <div class="zone">
-      <h3>Salón Pequeño (8PM - 2AM)</h3>
-      <p>Detodito BBQ</p>
-    </div>
-    <div class="zone">
-      <h3>Main Stage (8PM - 4AM)</h3>
-      <p>House Music All Night Long · <strong>DICKY TRISCO</strong> (Headliner)</p>
-    </div>
-  </div>
-
-  <div class="section block">
-    <h2>Line-up Destacado</h2>
-    <p>Dicky Trisco · Parte A · Parte B · DiscoLisa · Sonido Fabricato · PulsarMusic y más</p>
-  </div>
-
-  <div class="cta">
-    🎟 Entradas en @boletaenmano<br>
-    📍 Más info en @valleoasis
-  </div>
-
-  <div class="logos">
-    <img src="logo_pulsar.png" alt="PulsarMusic">
-    <img src="logo_discolisa.png" alt="Discolisa">
-    <img src="logo_fabricato.png" alt="Sonido Fabricato">
-    <img src="logo_cincuenta.png" alt="Cincuenta Cincuenta">
+  <div class="info">
+    <h1>BOCHORNO 🔥</h1>
+    <p>El calor que acompaña la pista de baile</p>
+    <p><strong>🗓 31 de mayo | 🕒 3:00 p.m. – 1:00 a.m.</strong></p>
+    <p><strong>📍 Rooftop 23Hotel</strong> <br> Jacuzzi central, vistas 360° y una atmósfera tropical perfecta para
+      bailar bajo el sol y las estrellas.</p>
+    <p><strong>🎶 Música:</strong> House / Disco / Afro / Latin / Nu Disco y más</p>
+    <p><strong>🎟 Preventa: $45.000 COP</strong></p>
+    <a href="https://wa.link/ew88jc" class="btn-whatsapp"
+      onclick="fbq('track', 'ViewContent'); fbq('track', 'Contact');" target="_blank">Hablar
+      por
+      WhatsApp</a>
   </div>
 </body>
 
