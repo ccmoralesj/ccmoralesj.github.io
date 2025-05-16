@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BOCHORNO – Fiesta en la Azotea 🌇🔥</title>
+  <title>BOCHORNO – Fiesta en la terraza 🔥</title>
   <meta name="description"
     content="Bochorno – La fiesta tropical que esperabas al caer el sol. Música, jacuzzi, 360° de vista y calor del bueno.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +37,7 @@
       font-family: 'Chivo', sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #ffe9a7, #ffadad);
+      background: linear-gradient(135deg, #F2DCB3, #F29829);
       color: #222;
       text-align: center;
       display: flex;
@@ -50,9 +50,57 @@
       font-family: 'Anton', sans-serif;
       font-size: 3rem;
       margin: 0.5em 0 0.2em;
+      color: #BF2C47;
+    }
+
+    /* .section {} */
+
+    .subtitle {
+      text-align: center;
+      font-size: 1.1em;
+      color: #ccc;
+    }
+
+    .block {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 20px;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
+    .zone {
+      margin-bottom: 20px;
+    }
+
+    .zone strong {
+      color: #2E401D;
+    }
+
+    .display-flex-column {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .display-flex-row {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .display-flex-column h3 {
+      margin: 0;
+    }
+
+    .display-flex-row h3 {
+      margin: 0;
     }
 
     p {
+      text-align: justify;
       margin: 0.3em 0;
       font-size: 1.1rem;
     }
@@ -84,13 +132,33 @@
 
 <body>
   <div class="info">
-    <h1>BOCHORNO 🔥</h1>
-    <p>El calor que acompaña la pista de baile</p>
-    <p><strong>🗓 31 de mayo | 🕒 3:00 p.m. – 1:00 a.m.</strong></p>
-    <p><strong>📍 Rooftop 23Hotel</strong> <br> Jacuzzi central, vistas 360° y una atmósfera tropical perfecta para
-      bailar bajo el sol y las estrellas.</p>
-    <p><strong>🎶 Música:</strong> House / Disco / Afro / Latin / Nu Disco y más</p>
-    <p><strong>🎟 Preventa: $45.000 COP</strong></p>
+    <h1>🥵 BOCHORNO 🪭</h1>
+    <div class="section block">
+      <h2>El calor que acompaña<br>la pista de baile</h2>
+      <div class="zone">
+        <div class="display-flex-column">
+          <div class="display-flex-row">
+            <h3>🗓️ 31 de mayo</h3>
+            <h3>📍Rooftop 23Hotel</h3>
+          </div>
+          <h3>🕒 3:00 p.m. – 1:00 a.m.</h3>
+        </div>
+      </div>
+      <div class="zone">
+        <p>Música, jacuzzi, vistas 360° y una atmósfera tropical perfecta para
+          bailar bajo el sol y las estrellas.</p>
+      </div>
+      <div class="zone display-flex-row">
+        <div class="display-flex-column">
+          <p><strong>🎶 Música</strong></p>
+          <p>House / Disco / Afro<br>Latin / Nu Disco / y más...</p>
+        </div>
+        <div class="display-flex-column">
+          <p><strong>🎟 Preventa</strong></p>
+          <p>$45.000 COP</p>
+        </div>
+      </div>
+    </div>
     <a href="https://wa.link/ew88jc" class="btn-whatsapp"
       onclick="fbq('track', 'ViewContent'); fbq('track', 'Contact');" target="_blank">Hablar
       por
